@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Financial Planning and Tax Consultancy Firm. We provide wealth creation, insurance advisory, loan advisory, and tax consultancy services.">
+    <title>Aryavarth Financial & Tax Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo-white.png" alt="Aryavarth Consultancy Logo">
+            </a>
+            
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blogs">Insights</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact" class="cta-btn">Consult Now</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Secure Your Financial Future With Expert Guidance</h1>
+                <p>Comprehensive wealth creation, insurance advisory, loan assistance, and expert tax consultancy services tailored for your success.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn-primary">Explore Services</a>
+                    <a href="https://wa.me/917359357209" target="_blank" class="btn-secondary">Get Free Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Premium Services</h2>
+                <p>We provide a holistic approach to your financial well-being, ensuring robust growth and compliance.</p>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="services-tabs-container reveal">
+                <div class="services-tabs-header">
+                    <button class="tab-btn active" data-tab="accounting">
+                        <i class="fa-solid fa-calculator"></i>
+                        <span>Accounting</span>
+                    </button>
+                    <button class="tab-btn" data-tab="tax">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <span>Tax & Regulatory</span>
+                    </button>
+                    <button class="tab-btn" data-tab="advisory">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Business Advisory</span>
+                    </button>
+                    <button class="tab-btn" data-tab="investment">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Investment</span>
+                    </button>
+                </div>
+
+                <div class="services-tabs-content">
+                    <!-- Tab 1: Accounting -->
+                    <div class="tab-panel active" id="accounting">
+                        <div class="panel-header">
+                            <h3>Accounting & Business Support</h3>
+                            <p>We provide comprehensive accounting and business support services to help businesses maintain accurate financial records, ensure regulatory compliance, and streamline their internal processes.</p>
+                        </div>
+                        <div class="sub-services-grid">
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-book"></i>
+                                <h4>Financial Accounting</h4>
+                                <p>Accurate financial records are the foundation of success. We assist in systematic books maintenance and financial statement preparation for clear insights into profitability.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                                <h4>Regulatory Compliance</h4>
+                                <p>Support in meeting statutory obligations related to taxation and financial reporting, minimizing risks and avoiding penalties through timely filings.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-gears"></i>
+                                <h4>Standard Operating Procedures</h4>
+                                <p>Developing and documenting SOPs for accounting and financial management to improve internal controls, consistency, and accountability.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Tax -->
+                    <div class="tab-panel" id="tax">
+                        <div class="panel-header">
+                            <h3>Tax and Regulatory Support</h3>
+                            <p>We help individuals and businesses navigate the complexities of tax laws and compliance requirements, ensuring you remain compliant while optimizing your tax positions.</p>
+                        </div>
+                        <div class="sub-services-grid">
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-globe"></i>
+                                <h4>Tax Advisory</h4>
+                                <p>Expert guidance on Domestic and International tax matters, focusing on tax-efficient structuring and minimizing regulatory risks.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-list-check"></i>
+                                <h4>Compliance Services</h4>
+                                <p>Full management of tax registrations, return filings, and documentation to ensure you stay aligned with evolving statutory requirements.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-receipt"></i>
+                                <h4>Goods and Services Tax</h4>
+                                <p>End-to-end GST support including registration, regular filings, reconciliation, and representation for complete peace of mind.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Advisory -->
+                    <div class="tab-panel" id="advisory">
+                        <div class="panel-header">
+                            <h3>Business Advisory</h3>
+                            <p>Strategic guidance and regulatory support designed to help entrepreneurs and organizations make informed decisions at every stage of growth.</p>
+                        </div>
+                        <div class="sub-services-grid">
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-building"></i>
+                                <h4>Corporate Advisory</h4>
+                                <p>Assistance in business formation, corporate structuring, and expansions ensuring actions align with legal and governance standards.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                <h4>Due Diligence</h4>
+                                <p>Detailed reviews of financial, legal, and operational aspects before major transactions to identify potential risks and transparency.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-signature"></i>
+                                <h4>Secretarial Compliance</h4>
+                                <p>Management of statutory registers, resolutions, and filings with regulatory authorities to maintain high governance standards.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 4: Investment -->
+                    <div class="tab-panel" id="investment">
+                        <div class="panel-header">
+                            <h3>Investment Advisory</h3>
+                            <p>Building long-term wealth through structured, diversified strategies based on your financial goals, risk appetite, and investment horizon.</p>
+                        </div>
+                        <div class="sub-services-grid">
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-compass"></i>
+                                <h4>Financial Planning</h4>
+                                <p>Development of a stable financial roadmap balancing income, savings, and investments for long-term security.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <h4>Mutual Fund Advisory</h4>
+                                <p>Guidance in selecting suitable mutual fund schemes with ongoing portfolio monitoring and periodic reviews for alignment.</p>
+                            </div>
+                            <div class="sub-service-card">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <h4>Insurance Advisory</h4>
+                                <p>Selection of life, health, and general insurance solutions as essential components of a comprehensive protection plan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs / Insights Section -->
+    <section id="blogs" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Practical Tax Insights</h2>
+                <p>Stay informed with our latest case studies and practical guides on Income Tax and GST compliance.</p>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <!-- Set 1 -->
+                    <div class="blog-card">
+                        <div class="blog-date">March 15, 2026</div>
+                        <h3>Resolving Form 26AS & AIS Mismatches</h3>
+                        <p>A practical guide on identifying and rectifying discrepancies between your Annual Information Statement and Form 26AS to prevent automated tax notices.</p>
+                        <a href="blog-26as.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 02, 2026</div>
+                        <h3>Maximizing Section 54 Exemption</h3>
+                        <p>A detailed case study on reinvesting property sale proceeds. Learn the crucial timelines and conditions to legally save on long-term capital gains tax.</p>
+                        <a href="blog-sec54.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 10, 2026</div>
+                        <h3>Handling GST ITC Mismatch Notices</h3>
+                        <p>Received a notice for Input Tax Credit mismatch between GSTR-2A/2B and GSTR-3B? Here are the practical steps to reconcile invoices and respond effectively.</p>
+                        <a href="blog-gst.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 14, 2026</div>
+                        <h3>New Tax Regime vs Old Tax Regime</h3>
+                        <p>With the recent updates to tax slabs, find out whether switching to the New Tax Regime is beneficial for your specific income level and investments.</p>
+                        <a href="blog-regime.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 16, 2026</div>
+                        <h3>Claiming TDS Refund (No Taxable Income)</h3>
+                        <p>Did the bank deduct TDS on your FDs even though your total income is below the exemption limit? Learn how to file your ITR and claim your refund seamlessly.</p>
+                        <a href="blog-tds.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Set 2 (Duplicated for seamless loop) -->
+                    <div class="blog-card">
+                        <div class="blog-date">March 15, 2026</div>
+                        <h3>Resolving Form 26AS & AIS Mismatches</h3>
+                        <p>A practical guide on identifying and rectifying discrepancies between your Annual Information Statement and Form 26AS to prevent automated tax notices.</p>
+                        <a href="blog-26as.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 02, 2026</div>
+                        <h3>Maximizing Section 54 Exemption</h3>
+                        <p>A detailed case study on reinvesting property sale proceeds. Learn the crucial timelines and conditions to legally save on long-term capital gains tax.</p>
+                        <a href="blog-sec54.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 10, 2026</div>
+                        <h3>Handling GST ITC Mismatch Notices</h3>
+                        <p>Received a notice for Input Tax Credit mismatch between GSTR-2A/2B and GSTR-3B? Here are the practical steps to reconcile invoices and respond effectively.</p>
+                        <a href="blog-gst.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 14, 2026</div>
+                        <h3>New Tax Regime vs Old Tax Regime</h3>
+                        <p>With the recent updates to tax slabs, find out whether switching to the New Tax Regime is beneficial for your specific income level and investments.</p>
+                        <a href="blog-regime.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-date">April 16, 2026</div>
+                        <h3>Claiming TDS Refund (No Taxable Income)</h3>
+                        <p>Did the bank deduct TDS on your FDs even though your total income is below the exemption limit? Learn how to file your ITR and claim your refund seamlessly.</p>
+                        <a href="blog-tds.html" class="read-more">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-image reveal">
+                    <img src="about-img.png" alt="Aryavarth Consultancy Meeting">
+                    <div class="about-experience glass-effect">
+                        <span class="exp-number" data-target="5">0+</span>
+                        <span class="exp-text">Years of Excellence</span>
+                    </div>
+                </div>
+                
+                <div class="about-content reveal" style="transition-delay: 0.2s;">
+                    <div class="mission-label">About Our Firm</div>
+                    <h2>Your Trusted Partner in Financial Navigation</h2>
+                    <p>At Aryavarth Consultancy, we are committed to helping individuals, professionals, and businesses manage their finances with confidence and clarity. With a strong focus on tax planning, compliance, and financial growth, our firm provides reliable solutions tailored to the unique needs of every client.</p>
+                    
+                    <p>Our approach is built on professional expertise, transparency, and personalized guidance, ensuring that clients not only remain compliant with regulatory requirements but also make informed financial decisions for long-term stability and growth. 📊💼</p>
+                    
+                    <div class="about-specializations">
+                        <span class="spec-tag"><i class="fa-solid fa-file-invoice-dollar"></i> Income Tax</span>
+                        <span class="spec-tag"><i class="fa-solid fa-receipt"></i> GST Compliance</span>
+                        <span class="spec-tag"><i class="fa-solid fa-building-columns"></i> TDS Returns</span>
+                        <span class="spec-tag"><i class="fa-solid fa-chart-line"></i> Financial Planning</span>
+                        <span class="spec-tag"><i class="fa-solid fa-piggy-bank"></i> Investment Advisory</span>
+                        <span class="spec-tag"><i class="fa-solid fa-shield-heart"></i> Insurance</span>
+                        <span class="spec-tag"><i class="fa-solid fa-vault"></i> Mutual Funds</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New 4-Pillar Pillars Grid -->
+            <div class="about-pillars grid reveal">
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <i class="fa-solid fa-route"></i>
+                        <h3>Approach</h3>
+                    </div>
+                    <p>We focus on understanding each client’s situation and long-term goals, providing practical, compliant solutions that simplify taxation and financial management through personalized attention.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                        <h3>Service Philosophy</h3>
+                    </div>
+                    <p>Built on integrity, accuracy, and transparency. We maintain the highest standards of confidentiality and dedication, ensuring dependable support for all tax and financial matters.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <i class="fa-solid fa-users-gear"></i>
+                        <h3>Culture</h3>
+                    </div>
+                    <p>Professionalism, continuous learning, and ethics drive us. We foster a client-first mindset, staying updated with changing laws to deliver relevant and reliable services.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <i class="fa-solid fa-id-card-clip"></i>
+                        <h3>Firm Profile</h3>
+                    </div>
+                    <p>Aryavarth Consultancy is dedicated to comprehensive financial stability. Our expertise spans Income Tax, GST, Mutual Funds, and Insurance, supporting growth for every client.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="location" class="map-section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Visit Our Office</h2>
+                <p>U/G Floor, Diksha Apartment, Nr Mehul Gas Agency, Khatriwad, Navsari - 396445 (Gujarat)</p>
+                <div class="title-line"></div>
+            </div>
+        </div>
+        <div class="map-container reveal">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.5!2d72.9361052!3d20.9533528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f722a81e7ac7%3A0x389d4994167c1cee!2sAryavarth%20Consultancy!5e0!3m2!1sen!2sin!4v1713600000000"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Aryavarth Consultancy Office Location">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer & Contact -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col reveal">
+                    <h3>Aryavarth<span>Consultancy</span></h3>
+                    <p>We are a premier financial planning and tax consultancy firm committed to securing your financial future through strategic wealth creation and expert compliance.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/aryavarth-consultancy/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/Aryavarth1002" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col reveal" style="transition-delay: 0.1s;">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#location">Locate Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col reveal" style="transition-delay: 0.2s;">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Wealth Creation</a></li>
+                        <li><a href="#services">Insurance Advisory</a></li>
+                        <li><a href="#services">Loan Advisory</a></li>
+                        <li><a href="#services">Tax Consultancy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col reveal" style="transition-delay: 0.3s;">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>U/G Floor, Diksha Apartment, Nr Mehul Gas Agency, Khatriwad, Navsari - 396445 (Gujarat)</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 6354540985<br>+91 7359357209</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>mail@aryavarth.co.in</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom reveal">
+                <p>&copy; 2026 Aryavarth Financial & Tax Consultancy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
